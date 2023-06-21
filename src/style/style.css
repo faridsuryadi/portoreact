@@ -1,0 +1,202 @@
+body{
+    background-color: #003049;
+}
+h1{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: left;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 100px;
+    padding: 15px;
+
+    cursor: pointer;
+}
+.info{
+    font-family: Verdana;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.email a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 15px;
+    list-style-type: none;
+
+}
+.container{
+    perspective: 500px;
+    position: absolute;
+    /* margin-left: 90px; */
+    margin-top: 100px;
+    right: 0;
+    margin-right: 80px;
+}
+img{
+    display: block;
+    position: fixed;
+    width: 200px;
+    bottom: 0;
+    margin-bottom: 250px;
+    padding: 15px;
+}
+
+.about{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: verdana;
+    color: #f77f00 ;
+    transform: rotateX(5deg) rotateY(-20deg);   
+    text-align: right; 
+    margin-bottom: 20px;
+}
+.about:hover{
+    display:block;
+    color: #003049;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    transform:translateX(-100px);
+
+}
+.about:hover>.biodata{
+    display:block;
+    color: #003049;
+    text-decoration: none;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.biodata{
+    display: none;
+    font-family: Verdana;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    /* margin : 15% 5% 50% 0%; */
+    list-style-type: none;
+
+}
+
+.about1{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: verdana;
+    color: #f77f00 ;
+    transform: rotateX(5deg) rotateY(-20deg);   
+    text-align: right; 
+    margin-bottom: 20px;
+
+}
+
+.about1:hover{
+    display:block;
+    color: #003049;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    transform:translateX(-100px);
+
+}
+.about1:hover > .pendidikan{
+    display: block;
+    color: #003049;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    /* transform:translateX(-10px); */
+}
+.pendidikan{
+    display: none;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    /* margin : 15% 5% 50% 0%; */
+    list-style-type: none ;
+}
+.about2{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: verdana;
+    color: #f77f00 ;
+    transform: rotateX(5deg) rotateY(-20deg);   
+    text-align: right; 
+    margin-bottom: 20px;
+
+}
+.about2:hover{
+    display:block;
+    color: #003049;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    transform:translateX(-100px);
+
+}
+.about2:hover>.keahlian{
+    display: block;
+    color: #003049;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    /* transform:translateX(50px); */
+}
+.keahlian{
+    display: none;
+    font-family: Verdana;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    /* margin : 15% 5% 50% 0%; */
+    list-style-type: none;
+}
+.about3{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: verdana;
+    color: #f77f00 ;
+    transform: rotateX(5deg) rotateY(-20deg);   
+    text-align: right; 
+    margin-bottom: 20px;
+
+}
+.about3:hover{
+    display:block;
+    color: #003049;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    transform:translateX(-100px);
+
+}
+.about3:hover>.kontak {
+    display: block;
+    color: #003049;
+    text-decoration: none;
+    cursor: pointer;
+    /* transform:translateX(80px); */
+}
+.kontak{
+    display: none;
+    font-family: Verdana;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    /* margin : 15% 5% 50% 0%; */
+
+}
+
+.kontak a{
+ text-decoration: none;
+ color: #003049;
+     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+
+
